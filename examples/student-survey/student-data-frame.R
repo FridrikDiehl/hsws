@@ -1,7 +1,7 @@
 # workshop students data frame example
 
 # construct vectors of data for inclusion in data frame.
-height = c(68, 64, 63, 63, 70, 66, 73, 2, 160, 0.0010000119, 64,1753)     
+height = c(68, 64, 63, 63, 70, 66, 73, 2, 160, 0.00100119, 64,1753)     
 units = c("in","in", "in", "in","in","in","in","yards","cm","nautical miles","in","mm")
 firstname = c("Jake", "Andrew", "Sarah", "Aditi","Devin","Debosir","Jeremiah","Adam", "Luna", "Frid","Helen","Matt")   
 lastinitial = c("B","L","W","C","M","G","M","R","L","D","H","D")   
@@ -60,7 +60,7 @@ str(data$Height)
 # How do you get the whole row instead?
 # What happens (try this last) if you omit one of the =
 # in the ==? Can you guess first?
-data$Height[data$Height=74]
+#data$Height[data$Height=74]
 
 data$Height=74
 # now what Heights are present in your dataset?
@@ -74,3 +74,7 @@ data$Height=74
 # List names of students old enough to drive
 # Convert all heights to centimeters, output a data frame
 #   that contains name, height in cm, school. One inch is 2.54 cm.
+for(i in units){
+  if i!=cm
+print(i)}
+
