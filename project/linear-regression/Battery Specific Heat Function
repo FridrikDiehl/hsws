@@ -1,0 +1,46 @@
+specific.heat=function(x) {
+  (custommerge[x,]);
+
+
+
+}
+
+capacity = function(c) {
+(abline(lm(n$Capacity~n$Specific.Heat)))
+(cap=435.07166*c+59.40125)
+
+}
+
+
+plot(n$Specific.Heat, n$Capacity)
+abline(lm(n$Capacity~n$Specific.Heat))
+ summary(lm(n$Capacity~n$Specific.Heat))
+resid(lm(n$Capacity~n$Specific.Heat))
+sqrt(mean((resid(lm(n$Capacity~n$Specific.Heat)))^2))
+
+
+   A Symbol Specific.Heat
+1  Ca     Co          0.42
+2  Li     Co          0.42
+3  Mg     Co          0.42
+4  Li     Cr          0.45
+5   Y     Cu          0.38
+6  Li     Cu          0.38
+7  Li     Mo          0.25
+8  Zn     Mo          0.25
+9  Ca     Mo          0.25
+10 Mg     Mo          0.25
+11 Li     Re          0.13
+12 Zn     Ti          0.52
+13 Ca     Ti          0.52
+14 Mg     Ti          0.52
+15 Li     Ti          0.52
+16 Mg      V          0.49
+17 Ca      V          0.49
+18 Zn      V          0.49
+19 Li      V          0.49
+20  Y      V          0.49
+21 Ca      W          0.13
+22 Mg      W          0.13
+23 Li      W          0.13
+24 Zn      W          0.13

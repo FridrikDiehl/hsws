@@ -33,7 +33,7 @@ elasticband <- data.frame(stretch = c(46, 54, 48, 50, 44, 42, 52),
 
 
 # c. In the data frame called elasticband, plot distance against stretch. Label your axes and the plot.
-# Reminder: scatter plot syntax is: plot(formula=y~x, data=dataframe, main="plot title")
+# Reminder: scatter plot syntax is: plot(formula=y~x, data=data.frame, main="plot title")
 
 
 # -------------------------------------------------------------

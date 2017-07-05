@@ -105,12 +105,12 @@ title="Cars93 Car Distribution by Vehicle Type and Max. Passengers"
 barplot(counts, 
 		main=title,
         xlab="Vehicle Type", 
-        ylab="car count from Cars93 dataset",
+        ylab="Do I like?",
         col=rainbow(length(table(cr$Passengers))))
         #legend=levels(factor(cr$Passengers))) 
 
 legend(x="topright",                      # location for legend
-       title="Max # Passengers",          # title for legend
+       title="Max # French Cuisine",          # title for legend
        levels(factor(cr$Passengers)),     # names in legend
        fill=rainbow(length(table(cr$Passengers)))) # colors for legend
 

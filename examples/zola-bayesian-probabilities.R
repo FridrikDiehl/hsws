@@ -3,6 +3,7 @@ library(gRain)
 
 # here are our random variables
 var=c("Sci", "Work", "Math", "Eff", "Stat")
+#sci=like/dislike; work= workload; math=grade  math; eff=effort put; stat=what you get in stats
 
 # here we describe our network
 e=empty.graph(var)

@@ -44,6 +44,7 @@
 # You can read more about least-squares regression at 
 # http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm
 
+# 2
 
 # Now, generalize the plotting you have just done. Write a function that, given 
 # x, y, and any additional parameters such as titles, plots the data and a best 
@@ -130,7 +131,7 @@
 # Here's some reading about batteries and materials to provide some context:
 
 # New ideas:
-#	http://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air
+	http://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air
 #	https://www.technologyreview.com/s/534866/why-we-dont-have-battery-breakthroughs/
 
 # Some visuals:

@@ -74,7 +74,3 @@ data$Height=74
 # List names of students old enough to drive
 # Convert all heights to centimeters, output a data frame
 #   that contains name, height in cm, school. One inch is 2.54 cm.
-for(i in units){
-  if i!=cm
-print(i)}
-
